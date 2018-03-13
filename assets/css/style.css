@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #182847;
+    background: url("../imgs/old_moon-blue.png");
+}
+
+/* text format */
+
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 10px;
+}
+
+p, fname {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #182847;
+}
+
+a:link {
+    color: #1D4778;
+}
+
+a:active {
+    color: #182847;
+}
+
+h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1D4778;
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 50px;
+    border-bottom: 3px double #E7312F;
+}
+
+h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1D4778;
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 36px;
+    border-bottom: 3px double #E7312F;
+}
+
+h3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+/* input form */
+
+input {
+    width: 100%;
+    padding: 5px 5px;
+}
+
+#message {
+    width: 100%;
+    height: 130px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    resize: none;
+    border: 1px solid #1D4778;
+}
+
+input[type=button] {
+    background-color: #E7312F;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+/* navbar */
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #1d4778;
+}
+
+#fname {
+    height: 30px;
+    border: 1px solid #1D4778;
+}
+
+.navbar-brand {
+    float: left;
+    width: 220px;
+    height: 48px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navbar{
+    background: #FFF;
+    border-bottom: 1px solid #1D4778;
+}
+
+/* img opacity hover */
+
+#img:hover {
+    opacity:0.8;
+}
+
+/* container */
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#main-container {
+    padding-top: 20px;
+    min-height: calc(100vh - 70px);
+}
+  
+.main-section {
+    width: 100%;
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #1D4778;
+}
+
+footer {
+    padding: 20px;
+    clear: both;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    background: #1D4778;
+    border-top: 1px solid #FFF;
+    height: 80px;
+}
+
+/* portfolio page */
+    
+.work {
+    position: relative;
+    float: left;
+    width: 240px;
+    margin: 0 18px 18px 0;
+    padding: 0px;
+    overflow: auto;
+}
+  
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #1D4778;
+    border-bottom: 0;
+}
+
+
+@media screen and (max-width: 720px) {
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar{
+      width: 100%;
+    }
+}
